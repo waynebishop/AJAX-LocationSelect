@@ -5,5 +5,9 @@ $(document).ready(function() {
 });
 
 function showCities() {
-	alert("Lets go cities");
+
+	var CountryID = $(this).val();
+	alert(CountryID);
+
+	
 }
